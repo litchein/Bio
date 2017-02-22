@@ -1,0 +1,101 @@
+V	Coding_transcript	CDS	13689956	13690007	.	+	0	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13690224	13690389	.	+	2	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13690767	13690851	.	+	1	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13691228	13691675	.	+	0	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13691759	13691988	.	+	2	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13692250	13692330	.	+	0	ID=CDS:T01D3.1;Note=EGF-like domains;Parent=Transcript:T01D3.1;status=Partially_confirmed;wormpep=CE:CE40997
+V	Coding_transcript	CDS	13705968	13706507	.	-	0	ID=CDS:T01D3.2;Note=single minded protein;Parent=Transcript:T01D3.2;locus=hlh-34;status=Confirmed;wormpep=CE:CE30446
+V	Coding_transcript	CDS	13706814	13706969	.	-	0	ID=CDS:T01D3.2;Note=single minded protein;Parent=Transcript:T01D3.2;locus=hlh-34;status=Confirmed;wormpep=CE:CE30446
+V	Coding_transcript	CDS	13707014	13707258	.	-	2	ID=CDS:T01D3.2;Note=single minded protein;Parent=Transcript:T01D3.2;locus=hlh-34;status=Confirmed;wormpep=CE:CE30446
+V	Coding_transcript	CDS	13707309	13707336	.	-	0	ID=CDS:T01D3.2;Note=single minded protein;Parent=Transcript:T01D3.2;locus=hlh-34;status=Confirmed;wormpep=CE:CE30446
+V	Coding_transcript	CDS	13705417	13705636	.	+	0	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13708237	13708377	.	+	2	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13708424	13708661	.	+	2	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13708834	13709711	.	+	1	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13709789	13710330	.	+	2	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13710507	13710802	.	+	0	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13710851	13710944	.	+	1	ID=CDS:T01D3.3a;Note=Von Willebrand factor-like;Parent=Transcript:T01D3.3a;status=Confirmed;wormpep=CE:CE18162
+V	Coding_transcript	CDS	13705076	13705142	.	+	0	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13705481	13705636	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13705725	13705880	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13707523	13707628	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13707779	13707947	.	+	1	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13707994	13708186	.	+	0	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13708237	13708377	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13708424	13708661	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13708834	13709711	.	+	1	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13709789	13710330	.	+	2	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13710507	13710802	.	+	0	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13710851	13710944	.	+	1	ID=CDS:T01D3.3b;Note=Copper/zinc superoxide dismutases (SODC);Parent=Transcript:T01D3.3b.2,Transcript:T01D3.3b.1;status=Partially_confirmed;wormpep=CE:CE41153
+V	Coding_transcript	CDS	13711341	13711403	.	+	0	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13711450	13711610	.	+	0	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13711907	13712133	.	+	1	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13712458	13712618	.	+	2	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13712670	13712735	.	+	0	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13712783	13712983	.	+	0	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13713060	13713152	.	+	0	ID=CDS:T01D3.4;Note=somatostatin receptor;Parent=Transcript:T01D3.4;locus=srx-96;status=Partially_confirmed;wormpep=WP:CE12960
+V	Coding_transcript	CDS	13713260	13713424	.	-	0	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13713606	13713707	.	-	0	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13714100	13714320	.	-	2	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13714384	13714449	.	-	2	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13714497	13714723	.	-	1	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13714792	13714954	.	-	2	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13715003	13715108	.	-	0	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13715156	13715251	.	-	0	ID=CDS:T01D3.5;Parent=Transcript:T01D3.5;status=Confirmed;wormpep=CE:CE12962
+V	Coding_transcript	CDS	13716850	13716962	.	+	0	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13717227	13717374	.	+	1	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13717423	13717544	.	+	0	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13717590	13717931	.	+	1	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13717987	13718383	.	+	1	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13718430	13718555	.	+	0	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13718615	13719568	.	+	0	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13719634	13720000	.	+	0	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13720055	13720269	.	+	2	ID=CDS:T01D3.6a;Note=EGF-like domains;Parent=Transcript:T01D3.6a;status=Confirmed;wormpep=CE:CE12964
+V	Coding_transcript	CDS	13716850	13716962	.	+	0	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13717227	13717374	.	+	1	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13717423	13717544	.	+	0	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13717590	13717931	.	+	1	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13717987	13718383	.	+	1	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13718430	13718519	.	+	0	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13718615	13719568	.	+	0	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13719634	13720000	.	+	0	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13720055	13720269	.	+	2	ID=CDS:T01D3.6b;Note=EGF-like domain%2C Fibrinogen beta and gamma chains%2C C-terminal globular domain;Parent=Transcript:T01D3.6b;status=Confirmed;wormpep=WP:CE18164
+V	Coding_transcript	CDS	13692715	13692738	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13692903	13693070	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13693138	13693353	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13693398	13693547	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13693626	13693788	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13693844	13694740	.	+	2	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13695015	13695352	.	+	2	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13695405	13695716	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13696059	13696942	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13696988	13697162	.	+	1	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13697211	13698167	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13698213	13700015	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13700066	13700278	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13700453	13701025	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13701075	13701136	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13701184	13701328	.	+	1	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13701394	13701781	.	+	0	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13701829	13701951	.	+	2	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+V	Coding_transcript	CDS	13702000	13703225	.	+	2	ID=CDS:T01D3.7;Parent=Transcript:T01D3.7;status=Partially_confirmed;wormpep=WP:CE42508
+II	Coding_transcript	CDS	10206698	10206823	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10206872	10207186	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10207707	10207838	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10207889	10208002	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10208048	10208281	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10208330	10208772	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10208828	10209002	.	+	1	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10209245	10209313	.	+	0	ID=CDS:T01E8.1;Parent=Transcript:T01E8.1.2,Transcript:T01E8.1.1;status=Partially_confirmed;wormpep=CE:CE32922
+II	Coding_transcript	CDS	10218395	10218537	.	+	0	ID=CDS:T01E8.2;Note=Helix-loop-helix DNA-binding domain (2 domains);Parent=Transcript:T01E8.2;locus=ref-1;status=Confirmed;wormpep=CE:CE02306
+II	Coding_transcript	CDS	10218592	10219047	.	+	1	ID=CDS:T01E8.2;Note=Helix-loop-helix DNA-binding domain (2 domains);Parent=Transcript:T01E8.2;locus=ref-1;status=Confirmed;wormpep=CE:CE02306
+II	Coding_transcript	CDS	10219098	10219260	.	+	1	ID=CDS:T01E8.2;Note=Helix-loop-helix DNA-binding domain (2 domains);Parent=Transcript:T01E8.2;locus=ref-1;status=Confirmed;wormpep=CE:CE02306
+II	Coding_transcript	CDS	10219317	10219658	.	+	0	ID=CDS:T01E8.2;Note=Helix-loop-helix DNA-binding domain (2 domains);Parent=Transcript:T01E8.2;locus=ref-1;status=Confirmed;wormpep=CE:CE02306
+II	Coding_transcript	CDS	10222800	10223095	.	+	0	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10223144	10223328	.	+	1	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10223381	10223531	.	+	2	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10223578	10224051	.	+	1	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10224104	10224189	.	+	1	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10224241	10224609	.	+	2	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10224685	10225113	.	+	2	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
+II	Coding_transcript	CDS	10225211	10225909	.	+	2	ID=CDS:T01E8.3;Note=1-phosphatidylinositol-4%2C5-bisphosphate phosphodiesterase;Parent=Transcript:T01E8.3;locus=plc-3;status=Partially_confirmed;wormpep=WP:CE42905
