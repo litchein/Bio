@@ -1,0 +1,250 @@
+I	WormBase	intron	4359	5194	.	-	.	Parent=Transcript:Y74C9A.3;Note=Confirmed_EST yk1692c07.3 %3B Confirmed_EST OSTR037H1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B 
+I	WormBase	intron	5297	6036	.	-	.	Parent=Transcript:Y74C9A.3;Note=Confirmed_EST yk1692c07.3 %3B Confirmed_EST OSTR037H1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B 
+I	WormBase	intron	6328	9726	.	-	.	Parent=Transcript:Y74C9A.3;Note=Confirmed_EST yk1692c07.3 %3B Confirmed_EST OSTF037H1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B 
+I	WormBase	intron	9847	10094	.	-	.	Parent=Transcript:Y74C9A.3;Note=Confirmed_EST yk266b5.5 %3B Confirmed_EST OSTF037H1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc1_g1_i1 %3B 
+I	WormBase	intron	11558	11617	.	+	.	Parent=Transcript:Y74C9A.2b.4
+I	WormBase	intron	11562	11617	.	+	.	Parent=Transcript:Y74C9A.2b.1;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11562	11617	.	+	.	Parent=Transcript:Y74C9A.2b.2;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11562	11622	.	+	.	Parent=Transcript:Y74C9A.2a.2
+I	WormBase	intron	11687	14949	.	+	.	Parent=Transcript:Y74C9A.2b.3
+I	WormBase	intron	11690	14950	.	+	.	Parent=Transcript:Y74C9A.2a.1;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11690	14950	.	+	.	Parent=Transcript:Y74C9A.2a.2;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11690	14950	.	+	.	Parent=Transcript:Y74C9A.2b.1;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11690	14950	.	+	.	Parent=Transcript:Y74C9A.2b.2;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	11690	14950	.	+	.	Parent=Transcript:Y74C9A.2b.4;Note=Confirmed_EST yk1295h05.3 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2a.1;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2a.2;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2b.1;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2b.2;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2b.3;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	15161	16472	.	+	.	Parent=Transcript:Y74C9A.2b.4;Note=Confirmed_EST yk1551a04.3 %3B Confirmed_EST OSTR070G11_1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6457%7Cc0_g1_i1 %3B 
+I	WormBase	intron	16586	16701	.	+	.	Parent=Transcript:Y74C9A.2b.2
+I	WormBase	intron	17959	18005	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	17959	18005	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	17959	18005	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	17959	18005	.	-	.	Parent=Transcript:Y74C9A.4d;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	18116	19014	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	18116	19014	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	18116	19014	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	18116	19014	.	-	.	Parent=Transcript:Y74C9A.4d;Note=Confirmed_EST EC014389 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	19242	20270	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST EC018075 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	19242	20270	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST EC018075 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	19242	20270	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST EC018075 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	19242	20270	.	-	.	Parent=Transcript:Y74C9A.4d;Note=Confirmed_EST EC018075 %3B Confirmed_EST OSTR086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20479	20847	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20479	20847	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20479	20847	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20479	20847	.	-	.	Parent=Transcript:Y74C9A.4d;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20965	21012	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20965	21012	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20965	21012	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	20965	21012	.	-	.	Parent=Transcript:Y74C9A.4d;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	21137	24650	.	-	.	Parent=Transcript:Y74C9A.4d
+I	WormBase	intron	21140	24650	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	21140	24650	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	21140	24650	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i1 %3B 
+I	WormBase	intron	24846	24928	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	24846	24928	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	24846	24928	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST FN876303 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25091	25272	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST FN876301 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25091	25272	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST FN876301 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25091	25272	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST FN876301 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25473	26370	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25473	26370	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	25473	26370	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	26525	26589	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	26525	26589	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	26525	26589	.	-	.	Parent=Transcript:Y74C9A.4c;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST OSTF086G1_1 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	26682	26732	.	-	.	Parent=Transcript:Y74C9A.4a;Note=Confirmed_EST yk567e12.5 %3B Confirmed_EST OSTF086G1_1 %3B 
+I	WormBase	intron	26691	26732	.	-	.	Parent=Transcript:Y74C9A.4b;Note=Confirmed_EST yk618h7.5 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc2_g1_i2 %3B 
+I	WormBase	intron	28406	29099	.	-	.	Parent=Transcript:Y74C9A.5;Note=Confirmed_EST FN871468 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc3_g1_i1 %3B 
+I	WormBase	intron	29368	29768	.	-	.	Parent=Transcript:Y74C9A.5;Note=Confirmed_EST FN871468 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc3_g1_i1 %3B 
+I	WormBase	intron	30425	31768	.	-	.	Parent=Transcript:Y74C9A.5;Note=Confirmed_EST FN871719 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc3_g1_i1 %3B 
+I	WormBase	intron	32073	32411	.	-	.	Parent=Transcript:Y74C9A.5;Note=Confirmed_EST FN871719 %3B Confirmed_EST elegans_PE_SS_GG2157%7Cc3_g1_i1 %3B 
+I	WormBase	intron	43962	44029	.	+	.	Parent=Transcript:Y74C9A.1;Note=Confirmed_EST FN871345 %3B Confirmed_EST OSTF074C11_1 %3B 
+I	WormBase	intron	44235	44280	.	+	.	Parent=Transcript:Y74C9A.1;Note=Confirmed_EST FN871345 %3B Confirmed_EST OSTF074C11_1 %3B 
+I	WormBase	intron	44325	44371	.	+	.	Parent=Transcript:Y74C9A.1;Note=Confirmed_EST FN871345 %3B Confirmed_EST OSTF074C11_1 %3B 
+I	WormBase	intron	44469	44520	.	+	.	Parent=Transcript:Y74C9A.1;Note=Confirmed_EST FN871345 %3B Confirmed_EST OSTR074C11_1 %3B 
+I	WormBase	intron	47611	47695	.	+	.	Parent=Transcript:Y48G1C.12;Note=Confirmed_EST elegans_PE_SS_GG6466%7Cc0_g1_i1 %3B 
+I	WormBase	intron	47859	48347	.	+	.	Parent=Transcript:Y48G1C.12;Note=Confirmed_EST FN871746 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc0_g1_i1 %3B 
+I	WormBase	intron	48531	49250	.	+	.	Parent=Transcript:Y48G1C.12;Note=Confirmed_EST FN871746 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc0_g1_i1 %3B 
+I	WormBase	intron	50017	50814	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST FN896656 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	51031	52282	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST FN896656 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	52411	52465	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST FN896655 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	52411	52465	.	+	.	Parent=Transcript:Y48G1C.4b;Note=Confirmed_EST FN896655 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	52573	53265	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST FN896655 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	52573	53265	.	+	.	Parent=Transcript:Y48G1C.4b;Note=Confirmed_EST FN896655 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	53338	53390	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST FN888230 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	53338	53390	.	+	.	Parent=Transcript:Y48G1C.4b;Note=Confirmed_EST FN888230 %3B Confirmed_EST OSTF30009A06 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	53696	53943	.	+	.	Parent=Transcript:Y48G1C.4a;Note=Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	53696	53943	.	+	.	Parent=Transcript:Y48G1C.4b;Note=Confirmed_EST elegans_PE_SS_GG6466%7Cc1_g1_i1 %3B 
+I	WormBase	intron	55451	55889	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk278d12.3 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	56048	56123	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk278d12.3 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	56294	56536	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk1543g12.3 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	56688	56871	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk1543g12.3 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	57054	57256	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	57626	59044	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk1543g12.5 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc1_g1_i1 %3B 
+I	WormBase	intron	60237	61235	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST elegans_PE_SS_GG2154%7Cc2_g2_i1 %3B 
+I	WormBase	intron	62052	62773	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST elegans_PE_SS_GG2154%7Cc0_g1_i1 %3B 
+I	WormBase	intron	62975	63796	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST elegans_PE_SS_GG2154%7Cc0_g1_i1 %3B 
+I	WormBase	intron	63857	63903	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST elegans_PE_SS_GG2154%7Cc0_g1_i1 %3B 
+I	WormBase	intron	63973	64017	.	-	.	Parent=Transcript:Y48G1C.5;Note=Confirmed_EST yk278d12.5 %3B Confirmed_EST elegans_PE_SS_GG2154%7Cc0_g1_i1 %3B 
+I	WormBase	intron	71512	71846	.	+	.	Parent=Transcript:Y48G1C.2b.1
+I	WormBase	intron	71512	71846	.	+	.	Parent=Transcript:Y48G1C.2b.2
+I	WormBase	intron	71933	72510	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk657d3.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	71933	72510	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk657d3.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	71933	72510	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk657d3.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	71933	72510	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk657d3.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72591	72646	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72591	72646	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72591	72646	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72591	72646	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72591	72646	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72898	72940	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72898	72940	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72898	72940	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72898	72940	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	72898	72940	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73018	73604	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73018	73604	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73018	73604	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73018	73604	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73018	73604	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73767	74624	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73767	74624	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73767	74624	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73767	74624	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	73767	74624	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk1729f01.5 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	74809	75170	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	74809	75170	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	74809	75170	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	74809	75170	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	74809	75170	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	75491	75950	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	75491	75950	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	75491	75950	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	75491	75950	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	75491	75950	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST FN871643 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	76113	76948	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	76113	76948	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	76113	76948	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	76113	76948	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	76113	76948	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77154	77712	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77154	77712	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77154	77712	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77154	77712	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77154	77712	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77800	79312	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77800	79312	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77800	79312	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77800	79312	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	77800	79312	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST FN871925 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	79448	80305	.	+	.	Parent=Transcript:Y48G1C.2a.1;Note=Confirmed_EST yk1268c12.3 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	79448	80305	.	+	.	Parent=Transcript:Y48G1C.2a.2;Note=Confirmed_EST yk1268c12.3 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	79448	80305	.	+	.	Parent=Transcript:Y48G1C.2b.1;Note=Confirmed_EST yk1268c12.3 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	79448	80305	.	+	.	Parent=Transcript:Y48G1C.2b.2;Note=Confirmed_EST yk1268c12.3 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	79448	80305	.	+	.	Parent=Transcript:Y48G1C.2c;Note=Confirmed_EST yk1268c12.3 %3B Confirmed_cDNA AB096875 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc8_g1_i2 %3B 
+I	WormBase	intron	80562	80813	.	+	.	Parent=Transcript:Y48G1C.2a.1
+I	WormBase	intron	80562	80813	.	+	.	Parent=Transcript:Y48G1C.2b.2
+I	WormBase	intron	81273	81884	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN885709 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81273	81884	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN885709 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81273	81884	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN885709 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81273	81884	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN885709 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81964	82015	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81964	82015	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81964	82015	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	81964	82015	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	82138	82585	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	82138	82585	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	82138	82585	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	82138	82585	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN885708 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i2 %3B 
+I	WormBase	intron	82677	83180	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN878139 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	82677	83180	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN878139 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	82677	83180	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN878139 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	82677	83180	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN878139 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	83421	84189	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	83421	84189	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	83421	84189	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	83421	84189	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84314	84387	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84314	84387	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84314	84387	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84314	84387	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84568	84613	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84568	84613	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84568	84613	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84568	84613	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN890251 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84739	84835	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84739	84835	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84739	84835	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84739	84835	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84986	86823	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84986	86823	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84986	86823	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	84986	86823	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN878140 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	85355	85440	.	-	.	Parent=Transcript:Y48G1C.6;Note=Confirmed_EST yk651h3.5 %3B Confirmed_EST OSTR074H9_1 %3B Confirmed_EST elegans_PE_SS_GG2137%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2137%7Cc0_g1_i1 %3B 
+I	WormBase	intron	85622	86096	.	-	.	Parent=Transcript:Y48G1C.6;Note=Confirmed_EST yk504a2.5 %3B Confirmed_EST OSTR074H9_1 %3B Confirmed_EST elegans_PE_SS_GG2137%7Cc0_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2137%7Cc0_g1_i1 %3B 
+I	WormBase	intron	86905	87033	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN878135 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	86905	87033	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN878135 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	86905	87033	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN878135 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	86905	87033	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN878135 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87224	87519	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN878137 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87224	87519	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN878137 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87224	87519	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN878137 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87224	87519	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN878137 %3B Confirmed_EST OSTF30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87735	88267	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87735	88267	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87735	88267	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	87735	88267	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88501	88565	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN896579 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88501	88565	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN896579 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88501	88565	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN896579 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88501	88565	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN896579 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88707	89371	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN890254 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88707	89371	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN890254 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88707	89371	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN890254 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	88707	89371	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN890254 %3B Confirmed_EST OSTR30029C07 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	89585	90418	.	+	.	Parent=Transcript:Y48G1C.10a.1;Note=Confirmed_EST FN890254 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	89585	90418	.	+	.	Parent=Transcript:Y48G1C.10a.2;Note=Confirmed_EST FN890254 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	89585	90418	.	+	.	Parent=Transcript:Y48G1C.10b.1;Note=Confirmed_EST FN890254 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	89585	90418	.	+	.	Parent=Transcript:Y48G1C.10b.2;Note=Confirmed_EST FN890254 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	89585	90418	.	+	.	Parent=Transcript:Y48G1C.10c;Note=Confirmed_EST FN890254 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc9_g2_i1 %3B 
+I	WormBase	intron	90793	90821	.	+	.	Parent=Transcript:Y48G1C.10a.1
+I	WormBase	intron	90793	90821	.	+	.	Parent=Transcript:Y48G1C.10b.1
+I	WormBase	intron	90873	90967	.	+	.	Parent=Transcript:Y48G1C.10a.1
+I	WormBase	intron	90873	90967	.	+	.	Parent=Transcript:Y48G1C.10b.1
+I	WormBase	intron	91595	92522	.	+	.	Parent=Transcript:Y48G1C.9.1;Note=Confirmed_EST yk402f8.3 %3B Confirmed_EST OSTF30026C03 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B 
+I	WormBase	intron	91595	92522	.	+	.	Parent=Transcript:Y48G1C.9.2;Note=Confirmed_EST yk402f8.3 %3B Confirmed_EST OSTF30026C03 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B 
+I	WormBase	intron	91595	92522	.	+	.	Parent=Transcript:Y48G1C.9.3;Note=Confirmed_EST yk402f8.3 %3B Confirmed_EST OSTF30026C03 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc4_g1_i2 %3B 
+I	WormBase	intron	93137	93181	.	+	.	Parent=Transcript:Y48G1C.1;Note=Confirmed_EST yk480g10.5 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B 
+I	WormBase	intron	93557	93608	.	+	.	Parent=Transcript:Y48G1C.1;Note=Confirmed_EST FN871616 %3B Confirmed_EST OSTF084A5_1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B 
+I	WormBase	intron	94016	94063	.	+	.	Parent=Transcript:Y48G1C.1;Note=Confirmed_EST FN871616 %3B Confirmed_EST OSTR084A5_1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B 
+I	WormBase	intron	94209	94268	.	+	.	Parent=Transcript:Y48G1C.1;Note=Confirmed_EST EC020266 %3B Confirmed_EST OSTR084A5_1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B 
+I	WormBase	intron	94569	94621	.	+	.	Parent=Transcript:Y48G1C.1;Note=Confirmed_EST EC020266 %3B Confirmed_EST OSTR084A5_1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG6468%7Cc7_g1_i1 %3B 
+I	WormBase	intron	94930	94975	.	-	.	Parent=Transcript:Y48G1C.13;Note=Confirmed_EST FN903351 %3B Confirmed_EST elegans_PE_SS_GG2162%7Cc0_g1_i1 %3B 
+I	WormBase	intron	95119	95236	.	-	.	Parent=Transcript:Y48G1C.13;Note=Confirmed_EST FN903353 %3B Confirmed_EST elegans_PE_SS_GG2162%7Cc0_g1_i1 %3B 
+I	WormBase	intron	96993	97599	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST OSTR087F8_1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	96993	97599	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST OSTR087F8_1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	97961	98294	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST yk129a10.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	97961	98294	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST yk129a10.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	99059	99628	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST yk384e11.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	99059	99628	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST yk384e11.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	99790	100138	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST yk384e11.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	99790	100138	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST yk384e11.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	100324	100394	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i1 %3B 
+I	WormBase	intron	100339	100394	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST yk494g6.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g2_i2 %3B 
+I	WormBase	intron	100626	101504	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN879646 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	100626	101504	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN879646 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	101734	102447	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST yk520d2.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	101734	102447	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST yk520d2.5 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	103217	104439	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	103217	104439	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	104714	105435	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	104714	105435	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i3 %3B 
+I	WormBase	intron	105622	106015	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i5 %3B 
+I	WormBase	intron	105622	106015	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN877740 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i5 %3B 
+I	WormBase	intron	106335	106688	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN871410 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B 
+I	WormBase	intron	106335	106688	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN871410 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B 
+I	WormBase	intron	106820	107355	.	-	.	Parent=Transcript:Y48G1C.8a;Note=Confirmed_EST FN871410 %3B Confirmed_EST OSTF090C10_1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B 
+I	WormBase	intron	106820	107355	.	-	.	Parent=Transcript:Y48G1C.8b;Note=Confirmed_EST FN871410 %3B Confirmed_EST OSTF090C10_1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B Confirmed_EST elegans_PE_SS_GG2138%7Cc1_g1_i1 %3B 

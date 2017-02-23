@@ -31,9 +31,9 @@ def parsegff(gff_file):
 def sortbychrom(genome):
     """
     Initialize a dictionary for all ID sorted by chromosomes and return as a dictionary of chromosomes,
-    and each chromosome is a dictionary of genes with start and end position values
+    and each chromosome is a dictionary of genes with start and end position values of exons
 
-    cdslist = { chromosome: {'XXXXXXX' : [ start , end ] } }
+    cdslist = { chromosome: {'XXXXXXX' : [ start , end ] , [ start , end ]} }
     """
     cdslist = {}
     print 'Initializing dictionaries..'
@@ -77,36 +77,42 @@ def searchnested(cdslist):
     Search for nested genes (with exons) by each chromosome and return in a list of ID
     nestedgene = [ [nested] , [nest] ]
     """
-    nestedgene = []
     nest =[]
     nested = []
+    alpha = 'abcdefghijklmnopqrstuvwxyz'
     for chrom in cdslist:
-        count = 0
+
         search1 = cdslist[chrom].keys()
-        search2 = cdslist[chrom].keys()
+        search2 = []
+
+        #removing isoforms and UTRs from search list
+        for ID in search1:
+            if ID.count('.') == 2 or ID.endswith(tuple(alpha)):
+                pass
+            else:
+                search2.append(ID)
+
         print 'Searching chromosome %s' % chrom
-        print 'No. of CDS: %s' % len(search1)
+        print '  No. of CDS: %s' % len(search1)
         for ID1 in search1:
             ID1start = genestart(cdslist,chrom,ID1)
             ID1end = geneend(cdslist,chrom,ID1)
             ID1exon = len(cdslist[chrom][ID1])
-            search2.remove(ID1)
-            count += 1
-            print 'Processing %s..          \r' % count,
+            if ID1 in search2:
+                search2.remove(ID1)
+
             for ID2 in search2:
                 ID2start = genestart(cdslist,chrom,ID2)
                 ID2end = geneend(cdslist,chrom,ID2)
                 ID2exon = len(cdslist[chrom][ID2])
-                if ID1start > ID2start and ID1end < ID2end:
-                    if ID1 not in nested and ID1exon > 1:
+                if ID1start > ID2start and ID1end < ID2end and ID1 not in nested and ID1exon > 1:
                         nested.append(ID1)
                         nest.append(ID2)
 
-                elif ID2start > ID1start and ID2end < ID1end:
-                    if ID2 not in nested and ID2exon > 1:
+                elif ID2start > ID1start and ID2end < ID1end and ID2 not in nested and ID2exon > 1:
                         nested.append(ID2)
                         nest.append(ID1)
-    print '  Done!'
+    print '  Done!         '
     nestedgene = [ nested , nest ]
     return nestedgene
 
@@ -116,8 +122,8 @@ nestedgene = searchnested(cdslist)
 
 print ''
 print 'Total number of nested genes: %s  ' % len(nestedgene[0])
-print 'List of nested genes:        '
+print '  List of nested genes:        '
 #output ID of nestedgene
 for i in xrange(len(nestedgene[0])):
-    print '%s is nested in %s' % (nestedgene[0][i],nestedgene[1][i])
+    print '  %s is nested in %s' % (nestedgene[0][i],nestedgene[1][i])
 print ''
