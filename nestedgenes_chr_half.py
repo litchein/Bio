@@ -67,7 +67,6 @@ def searchnested(cdslist):
     """
     Search for nested genes by each chromosome and return in a list of ID
     """
-    nestedgene = []
     nest =[]
     nested = []
     for chrom in cdslist:
