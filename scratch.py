@@ -86,9 +86,8 @@ def filterintron(gene_dict):
 
 
 def getintrongene(gff_file):
-    file = getdict(gff_file)
-    sortedfile = sort(file)
-    output = filterintron(sortedfile)
+    output = getdict(gff_file)
+    output = filterintron(output)
     return output
 
 
@@ -105,7 +104,7 @@ def filterlong(gene_dict):
         filter_isoform = []
         for id in gene_id:
             #build list of id with isoforms
-            if id.endswith(tuple(alpha)):
+            if id.endswith(tuple(alpha)) or id.count('.') == 2:
                 filter_isoform.append(id)
         filter_isoform.sort()
         isoforms = []
@@ -116,9 +115,18 @@ def filterlong(gene_dict):
                 pass
             else:
                 isoforms = [id]
-                parent = id[:-1]
+                parent = id
+                if id.count('.') == 2:
+                    parent = parent[:-2]
+                if parent.endswith(tuple(alpha)):
+                    parent = parent[:-1]
                 for i in xrange(id_num, len(filter_isoform)):
-                    if parent == filter_isoform[i][:-1]:
+                    query = filter_isoform[i]
+                    if query.count('.') == 2:
+                        query = query[:-2]
+                    if query.endswith(tuple(alpha)):
+                        query = query[:-1]
+                    if parent == query:
                         isoforms.append(filter_isoform[i])
                     else:
                         break
@@ -138,59 +146,43 @@ def filterlong(gene_dict):
     return intron_2
 
 
-#filter isoform with UTR
-def filterutr(gene_dict):
-    output_utr = gene_dict.copy()
-    for chrom in output_utr:
-        utr_genes = []
-        utr_group = []
-        long_utr = ''
-        gene_id = output_utr[chrom].keys()
-        for id in gene_id:
-            if id.count('.') == 2:
-                utr_genes.append(id)
-        utr_genes.sort()
-        for num, id in enumerate(utr_genes):
-                id_num = num + 1
-                if id in utr_group or id is long_utr or id_num == len(utr_genes):
-                    pass
+#reorganize and compute intron information
+def get_intron_table(intron_dict):
+    intron_table = []
+    for i in intron_dict:
+        listed = intron_dict[i].keys()
+        listed.sort()
+        for j in listed:
+            introns = intron_dict[i][j]['intron']
+            mrna = intron_dict[i][j]['mRNA']
+            strand = intron_dict[i][j]['strand']
+            introns.sort()
+            mrna.sort()
+            if strand == '-':
+                introns = introns[::-1]
+                for k in xrange(len(introns)):
+                    introns[k]= introns[k][::-1]
+                mrna = mrna[::-1]
+            for x in xrange(len(introns)):
+                num = x+1
+                intron_id = 'intron_%s_%s' % (num, j)
+                if strand =='+':
+                    intron_dist = introns[x][0] - mrna[0]
+                    intron_size = introns[x][1] - introns[x][0]
                 else:
-                    utr_group = [id]
-                    parent = id[:-2]
-                    for i in xrange(id_num, len(utr_genes)):
-                        if parent == utr_genes[i][:-2]:
-                            utr_group.append(utr_genes[i])
-                        else:
-                            break
-                    if len(utr_group) > 1:
-                        compare_utr = []
-                        for utr1 in utr_group:
-                            utr_start = output_utr[chrom][utr1]['mRNA'][0]
-                            utr_end = output_utr[chrom][utr1]['mRNA'][1]
-                            utr_length = utr_end - utr_start
-                            compare_utr.append([utr1, utr_length])
-                        long_utr = max(compare_utr, key=lambda k: k[1])[0]
-                        utr_group.remove(long_utr)
-                        for utr2 in utr_group:
-                            del output_utr[chrom][utr2]
-    return output_utr
+                    intron_dist = mrna[0] - introns[x][0]
+                    intron_size = introns[x][0] - introns[x][1]
+                gene_id = j
+                intron_table.append({'IntronID': intron_id, 'Distance': intron_dist, 'GeneID': gene_id, 'Size': intron_size})
+    return intron_table
 
 
-#parse and filter genes with introns
 
-wormbase = getdict('wormbase_all.gff3')
-intron_genes = filterintron(wormbase)
-print '\nFiltering genes with introns..'
-for i in intron_genes:
-    print i, len(intron_genes[i])
-longintron = filterlong(intron_genes)
-print '\nFiltering longest isoform..'
-for i in longintron:
-    print i, len(longintron[i])
-final = filterutr(longintron)
-print '\nFiltering longest utr..'
-for i in final:
-    print i, len(final[i])
-    listed = final[i].keys()
-    listed.sort()
-    print listed
+f = getintrongene('wormbase_all.gff3')
+print 'Filtering..'
+f = filterlong(f)
+print '  Done!'
+print 'Getting intron table..'
+f = get_intron_table(f)
+for n in range(10):
+    print f[n]
