@@ -210,12 +210,19 @@ def get_intron_table(intron_dict):
                     intron_dist_atg = atg_start - intron_start + 1
                 intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna, 'Dist_ATG': intron_dist_atg,
                                      'GeneID': gene_id, 'Size': intron_size, 'IntronStart': intron_start, 'IntronEnd': intron_end,
-                                     'Strand': strand})
+                                     'Strand': strand, 'Chrom':chrom})
     return intron_table
 
+# change gff3 file if required
 all = getdict('wormbase_all.gff3')
 all = filterintron(all)
 print 'Getting intron table..'
-intron_table = get_intron_table(all)
-for n in range(100):
-    print intron_table[n]
+output = open('intron_table.txt' , 'w')
+output.write('## IntronID\tChrom\tIntronStart\tIntronEnd\tStrand\tIntronSize\tDist_mRNA\tDist_ATG\tGeneID\n')
+for x in range(len(intron_table)):
+    output.write('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' % (intron_table[x]['IntronID'], intron_table[x]['Chrom'], intron_table[x]['IntronStart'],
+                                                  intron_table[x]['IntronEnd'], intron_table[x]['Strand'], intron_table[x]['Size'],
+                                                  intron_table[x]['Dist_mRNA'], intron_table[x]['Dist_ATG'], intron_table[x]['GeneID']))
+
+output.close()
+print '  Done!'
