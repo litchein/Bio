@@ -23,15 +23,21 @@ def parse(gff_file):
             gene_entry['strand'] = field[6]
             gene_entry['phase'] = field[7]
             gene_entry['attrib'] = field[8].split(';')
-            for item in gene_entry['attrib']:
-                if item.startswith('Parent='):
-                    if gene_entry['id_type'] == 'intron' or gene_entry['id_type'] == 'exon':
-                        gene_entry['gene_id'] = item[18:]
-                elif item.startswith('ID='):
-                    if gene_entry['id_type'] == 'mRNA':
-                        gene_entry['gene_id'] = item[14:]
-                    elif gene_entry['id_type'] == 'CDS':
-                        gene_entry['gene_id'] = item[7:]
+            if gene_entry['id_type'] == 'mRNA':
+                gene_entry['gene_id'] = gene_entry['attrib'][0][14:]
+            if gene_entry['id_type'] == 'intron' or gene_entry['id_type'] == 'exon':
+                gene_entry['gene_id'] = gene_entry['attrib'][0][18:]
+            if gene_entry['id_type'] == 'CDS':
+                gene_entry['gene_id'] = gene_entry['attrib'][1][18:]
+                if gene_entry['gene_id'].count('.') > 1:
+                    gene_names = gene_entry['attrib'][1].split('=')[1].split(',')
+                    if len(gene_names) == 1:
+                        gene_entry['gene_id'] = gene_names[0][11:]
+                    else:
+                        id_list =[]
+                        for n in gene_names:
+                            id_list.append(n[11:])
+                        gene_entry['gene_id'] = id_list
         data.append(gene_entry)
     print '  Done!'
     return data
@@ -56,18 +62,34 @@ def sort(parsedgff):
             geneinfo = {id_type: [start, end], 'strand': strand}
         else:
             geneinfo = {id_type: [[start, end]], 'strand': strand}
-        chrominfo = {gene_id: geneinfo}
-        chrom_entry = {chrom: chrominfo}
-        if chrom in gene_dict:
-            if gene_id in gene_dict[chrom]:
-                if id_type in gene_dict[chrom][gene_id]:
-                    gene_dict[chrom][gene_id][id_type].append([start, end])
+
+        if type(gene_id) is list:
+            for x in gene_id:
+                chrominfo = {x: geneinfo}
+                chrom_entry = {chrom: chrominfo}
+                if chrom in gene_dict:
+                    if x in gene_dict[chrom]:
+                        if id_type in gene_dict[chrom][x]:
+                            gene_dict[chrom][x][id_type].append([start, end])
+                        else:
+                            gene_dict[chrom][x].update(geneinfo)
+                    else:
+                        gene_dict[chrom].update(chrominfo)
                 else:
-                    gene_dict[chrom][gene_id].update(geneinfo)
-            else:
-                gene_dict[chrom].update(chrominfo)
+                    gene_dict.update(chrom_entry)
         else:
-            gene_dict.update(chrom_entry)
+            chrominfo = {gene_id: geneinfo}
+            chrom_entry = {chrom: chrominfo}
+            if chrom in gene_dict:
+                if gene_id in gene_dict[chrom]:
+                    if id_type in gene_dict[chrom][gene_id]:
+                        gene_dict[chrom][gene_id][id_type].append([start, end])
+                    else:
+                        gene_dict[chrom][gene_id].update(geneinfo)
+                else:
+                    gene_dict[chrom].update(chrominfo)
+            else:
+                gene_dict.update(chrom_entry)
     return gene_dict
 
 
@@ -160,18 +182,18 @@ def get_intron_table(intron_dict):
         for gene_id in listed:
             introns = intron_dict[chrom][gene_id]['intron']
             mrna = intron_dict[chrom][gene_id]['mRNA']
-            # cds = intron_dict[chrom][gene_id]['CDS']
-            # cds.sort()
+            cds = intron_dict[chrom][gene_id]['CDS']
+            cds.sort()
             strand = intron_dict[chrom][gene_id]['strand']
             introns.sort()
             mrna.sort()
-            # atg_start = min(min(cds))
+            atg_start = min(min(cds))
             if strand == '-':
                 introns = introns[::-1]
                 for k in xrange(len(introns)):
                     introns[k] = introns[k][::-1]
                 mrna = mrna[::-1]
-                # atg_start = max(max(cds))
+                atg_start = max(max(cds))
             for x in xrange(len(introns)):
                 num = x+1
                 intron_id = '%s.i%s' % (gene_id, num)
@@ -181,26 +203,19 @@ def get_intron_table(intron_dict):
                 if strand == '+':
                     intron_dist_mrna = intron_start - mrna_start
                     intron_size = intron_end - intron_start + 1
-                    # intron_dist_atg = intron_start - atg_start + 1
+                    intron_dist_atg = intron_start - atg_start + 1
                 else:
                     intron_dist_mrna = mrna_start - intron_start
                     intron_size = intron_start - intron_end + 1
-                    # intron_dist_atg = atg_start - intron_start + 1
-                intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna, 'GeneID': gene_id,
-                                     'Size': intron_size, 'IntronStart': intron_start, 'IntronEnd': intron_end, 'Strand': strand})
+                    intron_dist_atg = atg_start - intron_start + 1
+                intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna, 'Dist_ATG': intron_dist_atg,
+                                     'GeneID': gene_id, 'Size': intron_size, 'IntronStart': intron_start, 'IntronEnd': intron_end,
+                                     'Strand': strand})
     return intron_table
 
-
-f = getintrongene('wormbase_all.gff3')
-# print 'Filtering..'
-# f = filterlong(f)
-# print '  Done!'
+all = getdict('wormbase_all.gff3')
+all = filterintron(all)
 print 'Getting intron table..'
-intron_table = get_intron_table(f)
+intron_table = get_intron_table(all)
 for n in range(100):
     print intron_table[n]
-# no_cds = []
-# for x in f:
-#     for y in f[x]:
-#         if 'CDS' not in y:
-#             print x, y
