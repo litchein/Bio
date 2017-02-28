@@ -27,6 +27,8 @@ def parse(gff_file):
                 gene_entry['gene_id'] = gene_entry['attrib'][0][18:]
             elif gene_entry['id_type'] == 'mRNA':
                 gene_entry['gene_id'] = gene_entry['attrib'][0][14:]
+            elif gene_entry['id_type'] == 'CDS':
+                gene_entry['gene_id'] = gene_entry['attrib'][0][7:]
         data.append(gene_entry)
     print '  Done!'
     return data
@@ -46,10 +48,11 @@ def sort(parsedgff):
         end = gene_entry['end']
         gene_id = gene_entry['gene_id']
         id_type = gene_entry['id_type']
+        strand = gene_entry['strand']
         if id_type == 'mRNA':
-            geneinfo = {id_type: [start, end], 'strand': gene_entry['strand']}
+            geneinfo = {id_type: [start, end], 'strand': strand}
         else:
-            geneinfo = {id_type: [[start, end]], 'strand': gene_entry['strand']}
+            geneinfo = {id_type: [[start, end]], 'strand': strand}
         chrominfo = {gene_id: geneinfo}
         chrom_entry = {chrom: chrominfo}
         if chrom in gene_dict:
@@ -79,9 +82,9 @@ def filterintron(gene_dict):
     output = gene_dict.copy()
     for chrom in gene_dict:
         gene_id = gene_dict[chrom].keys()
-        for gene_id in gene_id:
-            if 'intron' not in gene_dict[chrom][gene_id]:
-                del output[chrom][gene_id]
+        for gene in gene_id:
+            if 'intron' not in gene_dict[chrom][gene]:
+                del output[chrom][gene]
     return output
 
 
@@ -149,40 +152,52 @@ def filterlong(gene_dict):
 #reorganize and compute intron information
 def get_intron_table(intron_dict):
     intron_table = []
-    for i in intron_dict:
-        listed = intron_dict[i].keys()
-        listed.sort()
-        for j in listed:
-            introns = intron_dict[i][j]['intron']
-            mrna = intron_dict[i][j]['mRNA']
-            strand = intron_dict[i][j]['strand']
+    for chrom in intron_dict:
+        listed = intron_dict[chrom].keys()
+        for gene_id in listed:
+            introns = intron_dict[chrom][gene_id]['intron']
+            mrna = intron_dict[chrom][gene_id]['mRNA']
+            cds = intron_dict[chrom][gene_id]['CDS']
+            cds.sort()
+            strand = intron_dict[chrom][gene_id]['strand']
             introns.sort()
             mrna.sort()
+            atg_start = min(min(cds))
             if strand == '-':
                 introns = introns[::-1]
                 for k in xrange(len(introns)):
                     introns[k]= introns[k][::-1]
                 mrna = mrna[::-1]
+                atg_start = max(max(cds))
             for x in xrange(len(introns)):
                 num = x+1
-                intron_id = 'intron_%s_%s' % (num, j)
-                if strand =='+':
-                    intron_dist = introns[x][0] - mrna[0]
-                    intron_size = introns[x][1] - introns[x][0]
+                intron_id = '%s.i%s' % (gene_id, num)
+                intron_start = introns[x][0]
+                intron_end = introns[x][1]
+                mrna_start = mrna[0]
+                if strand == '+':
+                    intron_dist_mrna = intron_start - mrna_start
+                    intron_size = intron_end - intron_start +1
+                    intron_dist_atg = intron_start - atg_start +1
                 else:
-                    intron_dist = mrna[0] - introns[x][0]
-                    intron_size = introns[x][0] - introns[x][1]
-                gene_id = j
-                intron_table.append({'IntronID': intron_id, 'Distance': intron_dist, 'GeneID': gene_id, 'Size': intron_size})
+                    intron_dist_mrna = mrna_start - intron_start
+                    intron_size = intron_start - intron_end +1
+                    intron_dist_atg = atg_start - intron_start +1
+                intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna, 'Dist_ATG': intron_dist_atg, 'GeneID': gene_id, 'Size': intron_size, 'IntronStart': intron_start, 'IntronEnd': intron_end , 'Strand': strand})
     return intron_table
 
 
 
 f = getintrongene('wormbase_all.gff3')
-print 'Filtering..'
-f = filterlong(f)
-print '  Done!'
-print 'Getting intron table..'
-f = get_intron_table(f)
-for n in range(10):
-    print f[n]
+# print 'Filtering..'
+# # f = filterlong(f)
+# print '  Done!'
+# print 'Getting intron table..'
+# # intron_table = get_intron_table(f)
+# for n in range(100):
+#     print intron_table[n]
+# no_cds = []
+# for x in f:
+#     for y in f[x]:
+#         if 'CDS' not in y:
+#             print x, y
