@@ -193,7 +193,7 @@ f = getintrongene('wormbase_all.gff3')
 # # f = filterlong(f)
 # print '  Done!'
 # print 'Getting intron table..'
-# # intron_table = get_intron_table(f)
+#intron_table = get_intron_table(f)
 # for n in range(100):
 #     print intron_table[n]
 # no_cds = []
