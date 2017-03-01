@@ -34,7 +34,7 @@ def parse(gff_file):
                     if len(gene_names) == 1:
                         gene_entry['gene_id'] = gene_names[0][11:]
                     else:
-                        id_list =[]
+                        id_list = []
                         for n in gene_names:
                             id_list.append(n[11:])
                         gene_entry['gene_id'] = id_list
@@ -64,15 +64,15 @@ def sort(parsedgff):
             geneinfo = {id_type: [[start, end]], 'strand': strand}
 
         if type(gene_id) is list:
-            for x in gene_id:
-                chrominfo = {x: geneinfo}
+            for i in gene_id:
+                chrominfo = {i: geneinfo}
                 chrom_entry = {chrom: chrominfo}
                 if chrom in gene_dict:
-                    if x in gene_dict[chrom]:
-                        if id_type in gene_dict[chrom][x]:
-                            gene_dict[chrom][x][id_type].append([start, end])
+                    if i in gene_dict[chrom]:
+                        if id_type in gene_dict[chrom][i]:
+                            gene_dict[chrom][i][id_type].append([start, end])
                         else:
-                            gene_dict[chrom][x].update(geneinfo)
+                            gene_dict[chrom][i].update(geneinfo)
                     else:
                         gene_dict[chrom].update(chrominfo)
                 else:
@@ -94,8 +94,8 @@ def sort(parsedgff):
 
 
 def getdict(gff_file):
-    output = parse(gff_file)
-    return sort(output)
+    output_dict = parse(gff_file)
+    return sort(output_dict)
 
 
 def filterintron(gene_dict):
@@ -104,19 +104,19 @@ def filterintron(gene_dict):
     :param gene_dict: sorted gene_dict from gff
     :return: gene_dict of genes with introns
     """
-    output = gene_dict.copy()
+    output_dict = gene_dict.copy()
     for chrom in gene_dict:
         gene_id = gene_dict[chrom].keys()
         for gene in gene_id:
             if 'intron' not in gene_dict[chrom][gene]:
-                del output[chrom][gene]
-    return output
+                del output_dict[chrom][gene]
+    return output_dict
 
 
 def getintrongene(gff_file):
-    output = getdict(gff_file)
-    output = filterintron(output)
-    return output
+    output_dict = getdict(gff_file)
+    output_dict = filterintron(output_dict)
+    return output_dict
 
 
 def filterlong(gene_dict):
@@ -176,7 +176,8 @@ def filterlong(gene_dict):
 
 # reorganize and compute intron information
 def get_intron_table(intron_dict):
-    intron_table = []
+
+    output_intron_table = []
     for chrom in intron_dict:
         listed = intron_dict[chrom].keys()
         for gene_id in listed:
@@ -194,35 +195,39 @@ def get_intron_table(intron_dict):
                     introns[k] = introns[k][::-1]
                 mrna = mrna[::-1]
                 atg_start = max(max(cds))
-            for x in xrange(len(introns)):
-                num = x+1
+            for i in xrange(len(introns)):
+                num = i+1
                 intron_id = '%s.i%s' % (gene_id, num)
-                intron_start = introns[x][0]
-                intron_end = introns[x][1]
+                intron_start = introns[i][0]
+                intron_end = introns[i][1]
                 mrna_start = mrna[0]
                 if strand == '+':
                     intron_dist_mrna = intron_start - mrna_start
                     intron_size = intron_end - intron_start + 1
-                    intron_dist_atg = intron_start - atg_start + 1
+                    intron_dist_atg = intron_start - atg_start
                 else:
                     intron_dist_mrna = mrna_start - intron_start
                     intron_size = intron_start - intron_end + 1
-                    intron_dist_atg = atg_start - intron_start + 1
-                intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna, 'Dist_ATG': intron_dist_atg,
-                                     'GeneID': gene_id, 'Size': intron_size, 'IntronStart': intron_start, 'IntronEnd': intron_end,
-                                     'Strand': strand, 'Chrom':chrom})
-    return intron_table
+                    intron_dist_atg = atg_start - intron_start
+                output_intron_table.append({'IntronID': intron_id, 'Dist_mRNA': intron_dist_mrna,
+                                            'Dist_ATG': intron_dist_atg, 'GeneID': gene_id,
+                                            'Size': intron_size, 'IntronStart': intron_start,
+                                            'IntronEnd': intron_end, 'Strand': strand, 'Chrom': chrom})
+    return output_intron_table
 
 # change gff3 file if required
-all = getdict('wormbase_all.gff3')
-all = filterintron(all)
+all_genes = getdict('wormbase_all.gff3')
+all_genes_with_introns = filterintron(all_genes)
 print 'Getting intron table..'
-output = open('intron_table.txt' , 'w')
+intron_table = get_intron_table(all_genes_with_introns)
+output = open('intron_table.txt', 'w')
 output.write('## IntronID\tChrom\tIntronStart\tIntronEnd\tStrand\tIntronSize\tDist_mRNA\tDist_ATG\tGeneID\n')
 for x in range(len(intron_table)):
-    output.write('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' % (intron_table[x]['IntronID'], intron_table[x]['Chrom'], intron_table[x]['IntronStart'],
-                                                  intron_table[x]['IntronEnd'], intron_table[x]['Strand'], intron_table[x]['Size'],
-                                                  intron_table[x]['Dist_mRNA'], intron_table[x]['Dist_ATG'], intron_table[x]['GeneID']))
+    output.write('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' % (intron_table[x]['IntronID'], intron_table[x]['Chrom'],
+                                                           intron_table[x]['IntronStart'], intron_table[x]['IntronEnd'],
+                                                           intron_table[x]['Strand'], intron_table[x]['Size'],
+                                                           intron_table[x]['Dist_mRNA'], intron_table[x]['Dist_ATG'],
+                                                           intron_table[x]['GeneID']))
 
 output.close()
 print '  Done!'

@@ -1,0 +1,22 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="lc-chin">
+    <words>
+      <w>abcdefghijklmnopqrstuvwxyz</w>
+      <w>chrom</w>
+      <w>chrominfo</w>
+      <w>exon</w>
+      <w>filterintron</w>
+      <w>filterlong</w>
+      <w>geneinfo</w>
+      <w>getdict</w>
+      <w>getintrongene</w>
+      <w>intron</w>
+      <w>introns</w>
+      <w>isoform</w>
+      <w>isoforms</w>
+      <w>mrna</w>
+      <w>parsedgff</w>
+      <w>wormbase</w>
+    </words>
+  </dictionary>
+</component>
