@@ -220,6 +220,8 @@ all_genes = getdict('wormbase_all.gff3')
 all_genes_with_introns = filterintron(all_genes)
 print 'Getting intron table..'
 intron_table = get_intron_table(all_genes_with_introns)
+
+# writing to file
 output = open('intron_table.txt', 'w')
 output.write('## IntronID\tChrom\tIntronStart\tIntronEnd\tStrand\tIntronSize\tDist_mRNA\tDist_ATG\tGeneID\n')
 for x in range(len(intron_table)):
